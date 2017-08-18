@@ -10,8 +10,8 @@ from os import walk
 dir_path = os.path.dirname(os.path.realpath(__file__))
 #print(dir_path)
 
-original_images_path = os.path.join(dir_path, 'original')
-full_masks_path = os.path.join(dir_path, 'full-masks')
+original_images_path = os.path.join(dir_path, 'elgin-left/original')
+full_masks_path = os.path.join(dir_path, 'elgin-left/full-masks')
 
 #print(original_images_path)
 #print(full_masks_path)
